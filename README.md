@@ -10,9 +10,9 @@ Build a web page about my favorite food including the next content:
 - A footer whith a copyright, mame of the autor and icons of social media
 
 ## Tecnologies used:
-Github
-Git
-Visual Studio Code
-HTML5
-CSS3
-SASS
+- Github
+- Git
+- Visual Studio Code
+- HTML5
+- CSS3
+- SASS

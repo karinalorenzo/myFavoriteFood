@@ -1,6 +1,6 @@
 # My favorite food
 
-##Objective:
+## Objective:
 Build a web page about my favorite food including the next content:
 
 - A title in the Header

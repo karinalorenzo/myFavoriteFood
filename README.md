@@ -10,7 +10,8 @@ Build a web page about my favorite food including the next content:
 - A footer whith a copyright, mame of the autor and icons of social media
 
 ## Tecnologies used:
-- Github
+- GitHub
+- GitHub Pages: https://karinalorenzo.github.io/myFavoriteFood/
 - Git
 - Visual Studio Code
 - HTML5

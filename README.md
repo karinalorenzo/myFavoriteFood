@@ -11,7 +11,6 @@ Build a web page about my favorite food including the next content:
 
 ## Tecnologies used:
 - GitHub
-- GitHub Pages: https://karinalorenzo.github.io/myFavoriteFood/
 - Git
 - Visual Studio Code
 - HTML5

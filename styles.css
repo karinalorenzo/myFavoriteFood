@@ -1,0 +1,137 @@
+body {
+  background-color: #6a3c3c;
+  font-family: "times new roman", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: rgb(220, 214, 214);
+  margin-top: 50px;
+  font-size: 50px;
+  font-family: "times new roman", sans-serif;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.pasta {
+  padding-left: 15px;
+  text-align: left;
+  font-family: "times new roman", sans-serif;
+  color: #170606;
+  letter-spacing: 12px;
+}
+
+.pasta:hover {
+  color: #c67f7f;
+}
+
+img {
+  width: 100vw;
+  height: 80vh;
+  max-width: content;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.ingredients-container {
+  background-color: #c67f7f;
+  width: 450px;
+  height: 350px;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.ingredients-list {
+  width: 400px;
+  text-align: left;
+  margin-right: 80%;
+  padding: auto;
+  gap: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.ingredients,
+.preparation {
+  color: rgb(220, 214, 214);
+  text-align: left;
+  font-size: 40px;
+  padding-left: 40px;
+}
+
+.time-container {
+  background-color: #c67f7f;
+  width: 450px;
+  height: 150px;
+  font-size: 30px;
+  margin-top: 16px;
+  padding: 15px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 40px;
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-clock {
+  width: 36px;
+  height: 37px;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.container2 .number-one,
+.container2 .number-two,
+.container2 .number-three,
+.container2 .number-four {
+  font-size: 20px;
+  background-color: grey;
+  width: 20px;
+  height: 25px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 40px;
+  color: #170606;
+}
+.container2 .text-one,
+.container2 .text-two,
+.container2 .text-three,
+.container2 .text-four {
+  font-size: 20px;
+  text-align: justify;
+  width: 650px;
+  margin-left: 40px;
+  color: #170606;
+}
+
+.footer {
+  background-color: #c67f7f;
+  color: #170606;
+  text-align: left;
+  padding: 4px;
+  font-size: 14px;
+  border-top: 2px solid rgb(185, 160, 160);
+  display: flex;
+  justify-content: space-between;
+}
+
+.created {
+  margin-left: 40px;
+}
+
+.icons {
+  width: 36px;
+  height: 37px;
+  margin-right: 40px;
+  gap: 10px;
+}/*# sourceMappingURL=styles.css.map */

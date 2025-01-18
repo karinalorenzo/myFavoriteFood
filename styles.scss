@@ -1,0 +1,152 @@
+
+$primary-color: #6a3c3c;
+$secondary-color: #c67f7f;
+$font: 'times new roman', sans-serif;
+$text-color:rgb(220, 214, 214);
+$text-color2: #170606;
+$font-size-number: 20px;
+$align-left: left;
+
+
+body{
+    background-color: $primary-color;
+    font-family: $font;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: $text-color;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: $font;
+    text-align: $align-left;
+    padding-left: 50px;
+}
+
+.pasta{
+    padding-left: 15px;
+    text-align: $align-left;
+    font-family: $font;
+    color: $text-color2;
+    letter-spacing: 12px;
+}
+
+.pasta:hover{
+    color: $secondary-color;
+}
+
+img{
+    width: 100vw;
+    height: 80vh;
+    max-width:content;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.ingredients-container{
+    background-color: $secondary-color;
+    width: 450px;
+    height: 350px;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.ingredients-list{
+    width: 400px;
+    text-align: $align-left;
+    margin-right: 80%;
+    padding: auto;
+    gap: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ingredients,
+.preparation{
+    color: $text-color;
+    text-align: left;
+    font-size: 40px;
+    padding-left: 40px;
+}
+
+.time-container{
+    background-color: $secondary-color;
+    width: 450px;
+    height: 150px;
+    font-size: 30px;
+    margin-top: 16px;
+    padding: 15px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 40px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-clock{
+    width: 36px;
+    height: 37px;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .number-one,
+    .number-two,
+    .number-three,
+    .number-four{
+        font-size: $font-size-number;
+        background-color: grey;
+        width: 20px;
+        height: 25px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 40px;
+        color: $text-color2
+    }
+    
+    .text-one, 
+    .text-two,
+    .text-three,
+    .text-four{
+        font-size: $font-size-number;
+        text-align: justify;
+        width: 650px;
+        margin-left: 40px;
+        color: $text-color2;
+    }
+}
+
+
+.footer{
+    background-color: $secondary-color;
+    color: $text-color2;
+    text-align: left;
+    padding: 4px;
+    font-size: 14px;
+    border-top: 2px solid rgb(185, 160, 160);
+    display: flex;
+    justify-content: space-between;
+}
+
+.created{
+    margin-left: 40px;
+}
+
+
+.icons{
+    width: 36px;
+    height: 37px;
+    margin-right: 40px;
+    gap: 10px;
+}
+
+

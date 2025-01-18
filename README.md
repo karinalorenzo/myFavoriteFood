@@ -1,4 +1,4 @@
-# My favorite food
+# My favorite food 🍝
 
 ## Objective:
 Build a web page about my favorite food including the next content:

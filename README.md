@@ -17,7 +17,7 @@ Build a web page about my favorite food including the next content:
 - CSS3
 - SASS
 
-##Result:
+## Result:
 
 <img width="776" alt="1" src="https://github.com/user-attachments/assets/22b491c9-930c-4b88-9035-025fe5685417" />
 

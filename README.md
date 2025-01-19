@@ -1,4 +1,5 @@
 # My favorite food 🍝
+## Status: done ✔️
 
 ## Objective:
 Build a web page about my favorite food including the next content:
@@ -10,12 +11,11 @@ Build a web page about my favorite food including the next content:
 - A footer whith a copyright, mame of the autor and icons of social media
 
 ## Tecnologies used:
-- GitHub
-- Git
-- Visual Studio Code
-- HTML5
-- CSS3
-- SASS
+- GitHub to create the repositorie 
+- Git to work with the repositorie in my local
+- Visual Studio Code as code editor
+- HTML5 for the page structure
+- SASS for the styles of the page
 
 ## Result:
 
